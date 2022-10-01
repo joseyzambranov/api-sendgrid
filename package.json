@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/joseyzambranov/api-sendgrid/issues"
   },
-  "homepage": "https://github.com/joseyzambranov/api-sendgrid#readme"
+  "homepage": "https://github.com/joseyzambranov/api-sendgrid#readme",
+  "dependencies": {
+    "@sendgrid/client": "^7.7.0",
+    "dotenv": "^16.0.3"
+  }
 }
