@@ -1,0 +1,19 @@
+{
+  "name": "api-sendgrid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseyzambranov/api-sendgrid.git"
+  },
+  "author": "sumermullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseyzambranov/api-sendgrid/issues"
+  },
+  "homepage": "https://github.com/joseyzambranov/api-sendgrid#readme"
+}
