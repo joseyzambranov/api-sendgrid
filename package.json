@@ -18,6 +18,8 @@
   "homepage": "https://github.com/joseyzambranov/api-sendgrid#readme",
   "dependencies": {
     "@sendgrid/client": "^7.7.0",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.3"
   }
 }

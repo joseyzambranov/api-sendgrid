@@ -2,15 +2,13 @@ const client = require('@sendgrid/client');
 require('dotenv').config()
 client.setApiKey(process.env.SENDGRID_API_KEY);
 
-const data = {
-  "email": "example@example.com",
-  "source": "signup"
-};
-
 const request = {
   url: `/v3/validations/email`,
   method: 'POST',
-  body: data
+  body: {
+    "email": "example@example.com",
+    "source": "signup"
+  }
 }
 
 client.request(request)
